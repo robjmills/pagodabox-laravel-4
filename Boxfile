@@ -8,6 +8,7 @@ web1:
   php_extensions:
     - apc
     - mcrypt
+    - zip
   shared_writable_dirs:
     - app/storage/cache
     - app/storage/logs

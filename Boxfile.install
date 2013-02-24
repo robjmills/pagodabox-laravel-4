@@ -1,0 +1,8 @@
+global:
+  env:
+    - LARAVEL_ENV: production
+db1:
+  type: mysql
+web1:
+  before_deploy:
+    - "php artisan migrate:install"

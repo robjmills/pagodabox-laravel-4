@@ -3,6 +3,7 @@ global:
     - LARAVEL_ENV: production
 db1:
   type: mysql
+  name: laravel-4-db
 web1:
   before_deploy:
     - "php artisan migrate:install"

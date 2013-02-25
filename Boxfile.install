@@ -1,6 +1,3 @@
-global:
-  env:
-    - LARAVEL_ENV: production
 db1:
   type: mysql
   name: laravel-4-db

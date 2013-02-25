@@ -6,6 +6,7 @@ web1:
     - apc
     - mbstring
     - mcrypt
+    - pdo_mysql
     - zip
   shared_writable_dirs:
     - app/storage/cache
